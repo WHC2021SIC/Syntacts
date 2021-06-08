@@ -158,7 +158,7 @@ target_include_directories(syntacts
         ${portaudio_INCLUDE_DIR}
         3rdparty
 )
-target_link_libraries(syntacts PUBLIC portaudio_static PRIVATE)
+target_link_libraries(syntacts PUBLIC portaudio_static PRIVATE stdc++fs PRIVATE)
 
 #===============================================================================
 # Syntacts C Plugin
